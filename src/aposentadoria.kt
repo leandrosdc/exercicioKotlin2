@@ -4,6 +4,8 @@ class aposentadoria(
     val anosContrinuicao:Int
 ) {
     fun calculaAposentadora(){
+        println("")
+        println("RESULTADO CLASSE APOSENTADORIA")
         when{
             this.sexo == "F" && this.idade >= 60 && this.anosContrinuicao >= 30 -> println("Elegivel a Aposentadoria")
             this.sexo == "M" && this.idade >= 65 && this.anosContrinuicao >= 30 -> println("Elegivel a Aposentadoria")
