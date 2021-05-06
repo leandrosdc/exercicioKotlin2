@@ -9,4 +9,10 @@ class multiplicado (var lista:List<Int>){
         println("RESULTADO CLASSE MULTIPLICADO")
         println("O resultado da multiplicação é: " + x)
     }
+
+    fun teste(){
+        println("")
+        println("RESULTADO CLASSE MULTIPLICADO USANDO REDUCE")
+        println("O resultado da multiplicação é: " + lista.reduce {a, b -> a * b})
+    }
 }
